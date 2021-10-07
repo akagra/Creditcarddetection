@@ -18,7 +18,7 @@ data = data.sample(frac=0.1, random_state = 1)
 print(data.shape)
 print(data.describe())
 
-data.hist(figsize = (20, 20))
+data.hist(figsize = (20, 20)
 plt.show()
 
 
